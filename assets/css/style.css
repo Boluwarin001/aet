@@ -1,7 +1,8 @@
 @use "sass:math";
 :root {
     --theme-color: #eb3300;
-    --title-color: #0a0a0a;
+    --title-color: #00124e;
+    --title-color3: #0a0a0a;
     --title-color2: #161921;
     --body-color: #4b4b4b;
     --smoke-color: #f3f1f2;
@@ -3318,7 +3319,7 @@ a.text-theme:hover,
     background-color: var(--theme-color);
 }
 [data-overlay="title"]:before {
-    background-color: var(--title-color);
+    background-color: var(--title-color3);
 }
 [data-overlay="title2"]:before {
     background-color: var(--title-color2);
@@ -27307,6 +27308,7 @@ hr.style1 {
     height: 150px;
     width: var(--shape-width);
     background-color: var(--theme-color);
+    background-color: #fff;
     position: absolute;
     top: 0;
     left: 0;
@@ -27355,7 +27357,7 @@ hr.style1 {
     color: var(--theme-color);
 }
 .header-layout4 .menu-top {
-    background-color: #161921;
+    background-color: var(--title-color);
     padding: 23.5px 0;
 }
 .header-layout4 .header-button {
@@ -27434,7 +27436,7 @@ hr.style1 {
 }
 .header-link-btn {
     margin-left: 15px;
-    color: var(--theme-color);
+    color: #fff;
     text-transform: uppercase;
 }
 .header-link-btn i {
